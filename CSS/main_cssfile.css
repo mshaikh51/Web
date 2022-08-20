@@ -1,0 +1,385 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    height: 100vh;
+    width: 90%;
+    display: block;
+    margin: 0px auto;
+    background-color: #edf1fc;
+}
+
+
+.left{
+    height: 200px;
+    width: 45%;
+    display: inline-block;
+    margin: 200px 0px 0px 70px;
+}
+
+
+.left > h2{
+    color: #3d4456;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.left > p{
+    padding-top: 15px;
+    color: #70788d;
+}
+
+
+.left > h2, p{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.right{
+    margin: 100px 50px 0px 0px;
+    height: 500px;
+    width: 45%;
+    float: right;
+}
+
+span{
+    color: #f54467;
+}
+
+#resume{
+    margin: 40px 10px 0px 0px;
+    padding: 10px 35px 10px 35px;
+    border:2px solid #fb133c;
+    background-color: #fb133c;
+    color: white;
+    letter-spacing: 3px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+#resume:hover{
+    border:2px solid #fb133c;
+    color: #fb133c;
+    background-color: white;
+    cursor: pointer;
+}
+
+#phone{
+    margin: 40px 10px 0px 0px;
+    padding: 10px 35px 10px 35px;
+    border:2px solid #fb133c;
+    background-color: #fb133c;
+    color: white;
+    letter-spacing: 3px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+#phone:hover{
+    border:2px solid #fb133c;
+    color: #fb133c;
+    background-color: white;
+    cursor: pointer;
+}
+
+.fa{
+    padding-right: 10px;
+}
+
+
+/* Starting media quaries here for resposive */
+
+
+@media only screen and (max-width: 2596px){
+    .right{
+    margin: 100px 0px 0px 0px;
+    }
+}
+
+@media only screen and (max-width: 1900px){
+    .right > img{
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width: 1080px){
+    .right > img{
+        height: 350px;
+    }
+}
+
+@media only screen and (max-width: 970px){
+    #resume{
+        margin: 30px 5px 0px 0px;
+        padding: 7px 28px 7px 28px;
+        letter-spacing: 2px;
+    }
+    #phone{
+        margin: 30px 5px 0px 0px;
+        padding: 7px 28px 7px 28px;
+        letter-spacing: 2px;
+    }
+    .left > h2{
+        font-size: 33px;
+    }
+    .left > p{
+        font-size: 13px;
+    }
+
+    .left{
+        display: block;
+        width: 60%;
+        justify-content: center;
+        text-align: center;
+        margin: 0px auto;
+        margin-top: 60px;
+    }
+    .right{
+        display: block;
+        justify-content: center;
+        text-align: center;
+        float: none;
+        margin: 0px auto;
+    }
+    .right > img{
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width: 970px){
+    .left > h2{
+        font-size:33px ;
+    }
+}
+
+@media only screen and (max-width: 720px){
+    #resume{
+        margin: 20px 3px 0px 0px;
+        padding: 5px 23px 5px 23px;
+        letter-spacing: 1.5px;
+    }
+    #phone{
+        margin: 20px 3px 0px 0px;
+        padding: 5px 23px 5px 23px;
+        letter-spacing: 1.5px;
+    }
+    .left > h2{
+        font-size: 30px;
+    }
+
+    .left{
+        display: block;
+        width: 60%;
+        justify-content: center;
+        text-align: center;
+        margin: 0px auto;
+        margin-top: 50px;
+    }
+    .right{
+        display: block;
+        justify-content: center;
+        text-align: center;
+        float: none;
+        margin: 10px auto;
+    }
+    .right > img{
+        height: 250px;
+    }
+}
+
+@media only screen and (max-width: 555px){
+    #resume{
+        margin: 15px 3px 0px 0px;
+        padding: 5px 20px 5px 20px;
+        letter-spacing: 1.3px;
+    }
+    #phone{
+        margin: 15px 3px 0px 0px;
+        padding: 5px 20px 5px 20px;
+        letter-spacing: 1.3px;
+    }
+    .left > h2{
+        font-size: 30px;
+    }
+
+    .left{
+        display: block;
+        width: 60%;
+        justify-content: center;
+        text-align: center;
+        margin: 0px auto;
+        margin-top:50px;
+    }
+    .right{
+        display: block;
+        justify-content: center;
+        text-align: center;
+        float: none;
+        margin: 20px auto;
+    }
+    .right > img{
+        height: 200px;
+    }
+}
+
+
+@media only screen and (max-width: 530px){
+    #resume{
+        margin: 15px 3px 0px 0px;
+        padding: 5px 20px 5px 20px;
+        letter-spacing: 1.3px;
+    }
+    #phone{
+        margin: 15px 3px 0px 0px;
+        padding: 5px 20px 5px 20px;
+        letter-spacing: 1.3px;
+    }
+    .left > h2{
+        font-size: 25px;
+    }
+    .left > p{
+        font-size: 10px;
+    }
+
+    .left{
+        display: block;
+        width: 60%;
+        justify-content: center;
+        text-align: center;
+        margin: 0px auto;
+        margin-top:50px;
+    }
+    .right{
+        display: block;
+        justify-content: center;
+        text-align: center;
+        float: none;
+        margin: 20px auto;
+    }
+    .right > img{
+        height: 180px;
+    }
+}
+
+@media only screen and (max-width: 370px){
+    #resume{
+        margin: 10px 2px 0px 0px;
+        padding: 3px 15px 3px 15px;
+        letter-spacing: 1.1px;
+        font-size: 8px;
+    }
+    #phone{
+        margin: 10px 2px 0px 0px;
+        padding: 3px 15px 3px 15px;
+        letter-spacing: 1.1px;
+        font-size: 8px;
+    }
+    .left > h2{
+        font-size: 25px;
+    }
+    .left > p{
+        font-size: 10px;
+    }
+
+    .left{
+        display: block;
+        width: 60%;
+        justify-content: center;
+        text-align: center;
+        margin: 0px auto;
+        margin-top:50px;
+    }
+    .right{
+        display: block;
+        justify-content: center;
+        text-align: center;
+        float: none;
+        margin: 10px auto;
+    }
+    .right > img{
+        height: 130px;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    #resume{
+        margin: 10px 2px 0px 0px;
+        padding: 3px 15px 3px 15px;
+        letter-spacing: 1.1px;
+        font-size: 8px;
+    }
+    #phone{
+        margin: 10px 2px 0px 0px;
+        padding: 3px 15px 3px 15px;
+        letter-spacing: 1.1px;
+        font-size: 8px;
+    }
+    .left > h2{
+        font-size: 25px;
+    }
+    .left > p{
+        font-size: 10px;
+    }
+
+    .left{
+        display: block;
+        width: 60%;
+        justify-content: center;
+        text-align: center;
+        margin: 0px auto;
+        margin-top:50px;
+    }
+    .right{
+        display: block;
+        justify-content: center;
+        text-align: center;
+        float: none;
+        margin: 30px auto;
+    }
+    .right > img{
+        height: 110px;
+    }
+}
+
+@media only screen and (max-width: 220px){
+    #resume{
+        margin: 7px 2px 0px 0px;
+        padding: 3px 10px 3px 10px;
+        letter-spacing: 1px;
+        font-size: 5px;
+    }
+    #phone{
+        margin: 7px 2px 0px 0px;
+        padding: 3px 10px 3px 10px;
+        letter-spacing: 1px;
+        font-size: 5px;
+    }
+    .left > h2{
+        font-size: 20px;
+    }
+    .left > p{
+        font-size: 7px;
+    }
+
+    .left{
+        display: block;
+        width: 60%;
+        justify-content: center;
+        text-align: center;
+        margin: 0px auto;
+        margin-top:50px;
+    }
+    .right{
+        display: block;
+        justify-content: center;
+        text-align: center;
+        float: none;
+        margin: 0px auto;
+    }
+    .right > img{
+        height: 60px;
+    }
+}
+

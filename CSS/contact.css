@@ -1,0 +1,238 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    width: 90%;
+    display: block;
+    margin: 0px auto;
+    background-color: #edf1fb;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: rgba(0, 0, 0, 0.26);
+}
+
+.logo {
+    color: white;
+    font-size: 30px;
+}
+
+.span {
+    color: #EA1538;
+}
+
+.menu {
+    color: white;
+    margin: 7px;
+    padding: 10px 23px;
+    background-color: #EA1538;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    border-radius: 23px;
+}
+
+.menu:hover {
+    color: #EA1538;
+    border: 2px solid #EA1538;
+    background-color: white;
+    transform: none;
+    cursor: pointer;
+}
+
+.contact {
+    display: block;
+    width: 800px;
+    height: 160vh;
+    margin: 30px auto;
+    padding-top: 30px;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.show_hide{
+    display: none;
+}
+
+.contact h1 {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#name {
+    margin-left: 50px;
+    margin-top: 40px;
+    margin-right: 50px;
+    padding: 10px 3px 10px 5px;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    border: 2px solid gray;
+}
+
+#email {
+    margin-left: 50px;
+    margin-top: 40px;
+    margin-right: 50px;
+    padding: 10px 3px 10px 5px;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    border: 2px solid gray;
+    width: 300px;
+}
+
+#city{
+    display: inline;
+    margin-left: 50px;
+    margin-top: 40px;
+    margin-right: 50px;
+    padding: 10px 3px 10px 5px;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    border: 2px solid gray;
+    width: 300px;
+}
+
+.address {
+    margin-left: 50px;
+    margin-top: 40px;
+    margin-right: 50px;
+    padding: 10px 3px 10px 5px;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    border: 2px solid gray;
+    width: 685px;
+    height: 100px;
+}
+
+#message{
+    height: 200px;
+}
+#postal {
+    margin-left: 50px;
+    margin-top: 40px;
+    margin-right: 30px;
+    padding: 10px 3px 10px 5px;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    border: 2px solid gray;
+    width: 350px;
+    display: block;
+}
+
+#hour {
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-right: 50px;
+    padding: 10px 3px 10px 5px;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    border: 2px solid gray;
+    width: 300px;
+}
+
+h4 {
+    display: inline-block;
+    color: gray;
+    font-size: 20px;
+    margin: 30px 20px 0px 50px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#question1 {
+    cursor: pointer;
+    margin: 50px 0px 10px 30px;
+}
+
+#hiring1 {
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+
+
+.submit {
+    background-color: #36A9AE;
+    background-image: linear-gradient(#37ADB2, #329CA0);
+    border: 1px solid #2A8387;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0 1px 1px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: block;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 17px;
+    line-height: 100%;
+    margin:20px auto;
+    padding: 11px 15px 12px;
+    text-align: center;
+    width: 50%;
+}
+
+.submit:hover {
+    box-shadow: rgba(255, 255, 255, 0.3) 0 0 2px inset, rgba(0, 0, 0, 0.4) 0 1px 2px;
+    text-decoration: none;
+}
+
+.error{
+    margin-top: 10px;
+    margin-left: 50px;
+    color: red;
+    font-family:'Ubuntu', sans-serif;
+    display: block;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+
+@media only screen and (max-width: 900px) {
+    nav {
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    nav {
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+
+    .menu {
+        padding: 7px 20px;
+        font-size: 13px;
+    }
+
+    .logo {
+        font-size: 27px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    nav {
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+
+    .menu {
+        padding: 5px 15px;
+        font-size: 10px;
+        margin: 2px;
+    }
+
+    .logo {
+        font-size: 23px;
+    }
+}

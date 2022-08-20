@@ -1,0 +1,193 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    width: 90%;
+    display: block;
+    margin: 0px auto;
+    background-color: #edf1fb;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: rgba(0, 0, 0, 0.26);
+}
+
+.logo {
+    color: white;
+    font-size: 30px;
+}
+
+.span {
+    color: #EA1538;
+}
+
+.menu {
+    color: white;
+    margin: 7px;
+    padding: 10px 23px;
+    background-color: #EA1538;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    border-radius: 23px;
+}
+
+.menu:hover {
+    color: #EA1538;
+    border: 2px solid #EA1538;
+    background-color: white;
+    transform: none;
+    cursor: pointer;
+}
+
+.honesty{
+    display: block;
+    width: 80%;
+    height: 70vh;
+    margin: 50px auto;
+    padding-top: 30px;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.honesty p{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    font-size: 23px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.honesty span{
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.honesty .data{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 10px;
+}
+
+
+@media only screen and (max-width: 900px) {
+    nav {
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    nav {
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+
+    .menu {
+        padding: 7px 20px;
+        font-size: 13px;
+    }
+
+    .logo {
+        font-size: 27px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    nav {
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+
+    .menu {
+        padding: 5px 15px;
+        font-size: 10px;
+        margin: 2px;
+    }
+
+    .logo {
+        font-size: 23px;
+    }
+}
+
+@media only screen and (max-width: 1075px) {
+    .honesty{
+        height: 80vh;
+        margin: 50px auto;
+    }
+    
+    .honesty p{
+        font-size: 20px;
+    
+    }
+    
+    .honesty span{
+        font-weight: bold;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .honesty{
+        height: 90vh;
+        margin: 50px auto;
+    }
+    
+    .honesty p{
+        font-size: 18px;
+    
+    }
+    
+    .honesty span{
+        font-weight: bold;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .honesty{
+        height: 75vh;
+        margin: 50px auto;
+    }
+    
+    .honesty p{
+        font-size: 15px;
+    
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .honesty{
+        height: 80vh;
+        margin: 50px auto;
+    }
+    
+    .honesty p{
+        font-size: 15px;
+    
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .honesty{
+        height: 90vh;
+        margin: 50px auto;
+    }
+    
+    .honesty p{
+        font-size: 15px;
+    
+    }
+}
