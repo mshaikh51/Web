@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" href="../CSS/contact.css">
+    <script src="../JS/contact_hide_input.js"></script>
+    <script src="../JS/form_validation.js"></script>
+    <title>Contact Me</title>
+</head>
+
+<body>
+    <header class="hero">
+        <nav>
+            <h2 class="logo">W<span class="span">E</span>B22<span class="span">2</span></h2>
+            <div>
+                <button class="menu" onclick="window.location.href='../index.html'">Home</button>
+                <button class="menu" onclick="window.location.href='honestly.html'">Honestly</button>
+            </div>
+        </nav>
+    </header>
+    <div class="contact">
+        <form action="https://formspree.io/f/myyvyqrl" method="post" onsubmit = "return validation()"">
+            <h1>Contact Form</h1>
+            <input id="name" type="text" placeholder="Enter your name: " name="name" autocomplete="off" >
+            <span id="username" class="error"></span>
+            <input id="email" type="email" placeholder="Enter your email: " name="email" autocomplete="off" >
+            <span id="emailid" class="error"></span>
+            <input id="city" type="text" placeholder="Enter your city: " name="name" autocomplete="off" >
+            <span id="citydata" class="error"></span>
+            <textarea name="address" id="address" class="address" cols="30" rows="10" placeholder="Enter your address: "
+                autocomplete="off" ></textarea>
+            <span id="textaredata" class="error"></span>
+            <input type="text" id="postal" placeholder="Enter your postal code: " autocomplete="off" pattern="[ABCEGHJ-NPRSTVXY]{1}[0-9]{1}[ABCEGHJ-NPRSTV-Z]{1}[ ]?[0-9]{1}[ABCEGHJ-NPRSTV-Z]{1}[0-9]{1}">
+            <span id="postaldata" class="error"></span>
+            <h4>Choose the option</h4>
+
+            <label for="question" id="question1">Question</label>
+            <input type="radio" name="choice" class="choice" id="question" , value="Question" onclick="text(1)" >
+            <label for="hiring" id="hiring1">Hiring</label>
+            <input type="radio" name="choice" class="choice" id="hiring" , value="Hiring" onclick="text(0)" >
+            <label for="question" id="question1">Comment</label>
+            <input type="radio" name="choice" class="choice" id="question" , value="Question" onclick="text(1)" >
+
+            
+            <input type="number" id="hour" class="show_hide" placeholder="Enter hourly rate: " name="hourly_rate" autocomplete="off" >
+            <span class="error" id="hourly"></span>
+
+            <textarea name="message" id="message" class="address show_hide" cols="30" rows="30" placeholder="Type your message..." ></textarea>
+            <span id="messagedataa" class="error"></span>
+            <button class="submit" role="button" type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
